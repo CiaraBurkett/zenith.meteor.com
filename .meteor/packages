@@ -6,3 +6,9 @@
 standard-app-packages
 autopublish
 insecure
+iron-router
+scss
+bourbon
+neat
+jade
+sugar

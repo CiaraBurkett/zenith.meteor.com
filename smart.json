@@ -1,3 +1,10 @@
 {
-  "packages": {}
+  "packages": {
+    "iron-router": {},
+    "scss": {},
+    "bourbon": {},
+    "neat": {},
+    "jade": {},
+    "sugar": {}
+  }
 }
