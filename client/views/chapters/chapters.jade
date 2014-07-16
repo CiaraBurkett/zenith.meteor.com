@@ -20,7 +20,12 @@ template(name="chapters")
                   h3 {{title}}
                   h4 {{subtitle}}
                .lesson {{lesson}}
-               .summary {{summary}}
+
+               .summary
+                  h5 Chapter Summary
+                  {{summary}}
+
                footer
+                  h5 Review Exercises
                   ol
-                     li {{question}}
+                     li {{exercise}}

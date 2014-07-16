@@ -6,14 +6,14 @@ Template.new_chapter.events({
          subtitle = template.find('.subtitle'),
          lesson = template.find('.lesson'),
          summary = template.find('.summary'),
-         question = template.find('.question');
+         exercise = template.find('.exercise');
 
-      Meteor.call('addChapter', title.value, subtitle.value, lesson.value, summary.value, question.value);
+      Meteor.call('addChapter', title.value, subtitle.value, lesson.value, summary.value, exercise.value);
       title.value = '';
       subtitle.value = '';
       lesson.value = '';
       summary.value = '';
-      question.value = '';
+      exercise.value = '';
 
       Router.go('home');
    }

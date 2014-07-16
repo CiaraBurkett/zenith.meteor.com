@@ -1,11 +1,11 @@
 Meteor.methods({
-   addChapter: function(title, subtitle, lesson, summary, question) {
+   addChapter: function(title, subtitle, lesson, summary, exercise) {
       Chapters.insert({
          title: title,
          subtitle: subtitle,
          lesson: lesson,
          summary: summary,
-         question: question
+         exercise: exercise
       });
    }
 });
