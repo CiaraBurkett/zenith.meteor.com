@@ -1,8 +1,13 @@
 iron-router
 blaze-layout
 scss
-bourbon
-neat
-jade
 sugar
 zf5
+font-awesome
+foundation5-sass
+foundation
+bourbon
+iron-layout
+iron-core
+iron-dynamic-template
+neat

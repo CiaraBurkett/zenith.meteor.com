@@ -2,10 +2,9 @@
   "packages": {
     "iron-router": {},
     "scss": {},
-    "bourbon": {},
-    "neat": {},
-    "jade": {},
     "sugar": {},
-    "zf5": {}
+    "font-awesome": {},
+    "bourbon": {},
+    "neat": {}
   }
 }
