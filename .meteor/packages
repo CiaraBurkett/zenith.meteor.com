@@ -7,7 +7,6 @@ standard-app-packages
 autopublish
 insecure
 iron-router
-jade
 sugar
 scss
 bourbon
